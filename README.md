@@ -5,6 +5,8 @@ US business.
 
 # TODO 
 
+Future idea : Iterate through technology and business categories and get a seperate email sent surrounding both topics
+
 ## Table of Contents
 + [About](#about)
 + [Getting Started](#getting_started)
