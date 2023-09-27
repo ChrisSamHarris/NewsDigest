@@ -39,7 +39,7 @@ def send_news(content):
     try:
         with smtplib.SMTP_SSL('smtp.gmail.com') as s:
             # uncomment == DEBUG
-            # s.set_debuglevel(1)
+            s.set_debuglevel(1)
             s.login(USERNAME, PASSWORD)
             s.send_message(msg)
             print("🚴🏻 News sent successfully! ")
